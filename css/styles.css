@@ -1,0 +1,93 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.wrap {
+  position: relative;
+  width: 1090px;
+  height: 765px;
+  background: #edeff0;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.header {
+  box-shadow: 0 7px 6px -6px #aaa;
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+.header h3 {
+  float: left;
+}
+
+.header .right-nav {
+  float: right;
+  padding-right: 15px;
+}
+
+.right-nav img {
+  height: 45px
+}
+
+.right-nav p, .right-nav img, .right-nav div {
+  float: left;
+}
+
+.main {
+  border-bottom: 1px solid #ccc;
+  overflow: auto;
+}
+
+.box {
+  height: 310px;
+  width: 515px;
+  background: #fff;
+  float: left;
+  margin: 15px;
+  border-radius: 6px;
+}
+
+.box-header {
+  height: 60px;
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.box-header .book, .box-header ul, .box-header li {
+  float: left;
+  color: #fff;
+  position: absolute;
+}
+
+.box-header .time {
+  float: right;
+  color: #fff;
+  font-size: 14px;
+  padding:
+}
+
+ul {
+  list-style: none;
+}
+
+.box-1 .box-header {
+  background: #269675;
+}
+
+.box-2 .box-header {
+  background: #f290b0;
+}
+
+.box-3 .box-header {
+  background: #828ac9;
+}
+
+.box-4 .box-header {
+  background: #269675;
+}
