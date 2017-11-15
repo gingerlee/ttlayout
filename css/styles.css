@@ -36,6 +36,43 @@ body, html {
   float: left;
 }
 
+.right-nav p {
+  color: gray;
+}
+
+.down-arrow {
+  font-size: 40px;
+  color: lightgray;
+  position: relative;
+  line-height: 0px;
+  top: -18px;
+}
+
+.right-arrow {
+  margin: 5px;
+  padding: 8px 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  position: relative;
+  top: 2px;
+}
+
+.right-arrow:after {
+  content: "";
+  height: 35px;
+  width: 35px;
+  border: 2px solid #bbb;
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  left: 8px;
+
+}
+
+.bell {
+  color: lightgray;
+}
+
 .main {
   border-bottom: 1px solid #ccc;
   overflow: auto;
@@ -59,21 +96,25 @@ body, html {
   position: relative;
 }
 
-.box-header .book, .box-header ul, .box-header li {
+.box-header li {
   float: left;
   color: #fff;
-  position: absolute;
 }
 
-.box-header .time {
+.box-header li:first-of-type {
+  margin-left: 0px;
+}
+
+.box-header li:last-of-type {
   float: right;
-  color: #fff;
   font-size: 14px;
-  padding:
+  margin-right: 30px;
 }
 
 ul {
+
   list-style: none;
+
 }
 
 .box-1 .box-header {
